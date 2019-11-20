@@ -1,7 +1,11 @@
+import Layout from '../layouts/main'
+
 export default () => {
   return (
-    <div>
-      <h1>React Live Chat Loader</h1>
+    <Layout>
+      <div>
+        <h1>React Live Chat Loader</h1>
+      </div>
       <style jsx>{`
         div {
           align-items: center;
@@ -13,6 +17,6 @@ export default () => {
           margin: auto;
         }
       `}</style>
-    </div>
+    </Layout>
   )
 }
